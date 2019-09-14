@@ -1,11 +1,20 @@
+@font-face {
+    src: url(fonts/Impact-Label.ttf);
+    font-family: impact;
+}
+
 body{
     background-image: url("images/ta-building-front.jpg");
     background-size: cover;
     /* background-position: center; */
-    font-family: 'Special Elite', cursive;
+    font-family: impact;
   }
 
   html{
       height: 100%;
   }
-
+  a:link, :visited{
+    background-color: white;
+    color: red;
+  }
+  
