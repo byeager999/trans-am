@@ -1,4 +1,11 @@
 body{
-    background-image: "trans-am/images/ta-building-front.jpg";
+    background-image: url("images/ta-building-front.jpg");
     background-size: cover;
+    /* background-position: center; */
+    font-family: 'Special Elite', cursive;
   }
+
+  html{
+      height: 100%;
+  }
+
